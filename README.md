@@ -1,2 +1,1 @@
-# libNotificaciones
-Librería de notificaciones
+# Aplicación de información geográfica
