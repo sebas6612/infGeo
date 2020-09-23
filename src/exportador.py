@@ -2,7 +2,6 @@ from abc import ABC, abstractmethod
 import Nodo
 
 class IExportador(ABC):
-    """docstring for INotificador."""
 
     def __init__(self, arg):
         pass
@@ -12,7 +11,6 @@ class IExportador(ABC):
         pass
 
 class ExportadorXML(IExportador):
-    """docstring for NotificadorSMS."""
 
     def __init__(self):
         super().__init__()
@@ -22,7 +20,6 @@ class ExportadorXML(IExportador):
 
 
 class ExportadorPDF(IExportador):
-    """docstring for NotificadorCorreo."""
 
     def __init__(self):
         super().__init__()
